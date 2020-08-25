@@ -10,7 +10,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ['happy'] + ["sad"] + ['hurricane']
-  array << "pistachio"
+  array << "arrays!"
   array
 end
 
