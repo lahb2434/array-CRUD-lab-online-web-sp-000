@@ -9,20 +9,16 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = Array.new( 3, "arrays!")
-  # array << "arrays!"
-  array.push("arrays!")
+  array.push(element)
   array
 end
 
 def add_element_to_start_of_array(array, element)
-  array = Array.new( 3, "arrays!")
-  array.unshift("wow")
+  array.unshift(element)
   array
 end
 
 def remove_element_from_end_of_array(array)
-  array = Array.new( 2, "arrays!")
   array.pop
 end
 
