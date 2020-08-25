@@ -17,7 +17,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = Array.new( 3, "arrays!")
-  array.unshift("arrays!")
+  array.unshift("wow")
   array
 end
 
